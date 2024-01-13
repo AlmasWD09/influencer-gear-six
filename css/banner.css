@@ -1,0 +1,35 @@
+.banner{
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 450px 450px;
+    position: relative;
+}
+.banner__content{
+    width: 50%;
+    line-height:20px;
+}
+.banner__title{
+    font-size: var(--heading);
+    font-weight: var(--bold);
+    margin-bottom: 0px;
+}
+.banner__description--size{
+    max-width: 400px;
+    margin-bottom: 0px;
+}
+.banner__photo{
+    width: 50%;
+}
+.banner__photo--img{
+    position: absolute;
+    width:400px;
+    height:400p;
+    object-fit: cover;
+    margin-top: -170px;
+    margin-left: 156px;
+}

@@ -1,0 +1,7 @@
+.banner__icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    box-shadow: 5px 5px 5px #e39a9a;
+}

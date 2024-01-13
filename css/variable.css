@@ -1,0 +1,15 @@
+:root{
+    --primary:#E02C6D;
+    --primarylight:rgb(164, 219, 164);
+    --secondery:red;
+    --seconderylight:rgb(140, 103, 103);
+    --defaultblack:#3A3A3A;
+    --defaultwhite:#ffffffdd;
+    --medium:500;
+    --semibold:600;
+    --bold:700;
+    --heading:32px;
+    --subheading:24px;
+    --parafont:18px;
+    --sectiongap:30px;
+}

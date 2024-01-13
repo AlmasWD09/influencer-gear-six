@@ -1,0 +1,30 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    /* font-family: ppppp; */
+}
+.sectionGap{
+    margin-top:50px;
+}
+.defaultgray{
+    color: #3A3A3A;
+}
+.container01{
+    width: 1220px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.container02{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 3px solid rgb(19, 183, 142); */
+}
+.primary--btn{
+    background-color: var(--primary);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--defaultwhite);
+    margin: 8px 0;
+}

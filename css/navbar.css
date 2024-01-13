@@ -1,0 +1,19 @@
+
+.navbar__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navbar__logo{
+    font-size: var(--subheading);
+    font-weight:var(--semibold);
+}
+.navbar__items{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    font-size: var(--parafont);
+    font-weight:var(--medium);
+    list-style-type: none;
+}
