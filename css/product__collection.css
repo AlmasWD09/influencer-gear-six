@@ -1,0 +1,40 @@
+.collection{
+    height:1550px;
+    border: 5px solid salmon;
+}
+.collection__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 10px;
+}
+.collection__card{
+    width: 400px;
+    height: 500px;
+    border: 3px dashed green;
+    padding: 15px;
+}
+.collection__card img{
+    width: 100%;
+    object-fit: cover;
+}
+.collection__card h3{
+    margin: 0;
+}
+.collection__card h4{
+    margin: 5px 0;
+}
+.collection__card__desc{
+    max-width: 250px;
+    margin-top: 0;
+}
+.product__collection__button{
+    text-align: end;
+}
+.product__collection__button--size{
+    border: none;
+    padding: 15px 0;
+    color: var(--primary);
+    font-size: 20px;
+    font-weight:var(--semibold);
+}

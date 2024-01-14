@@ -1,0 +1,9 @@
+footer{
+    background-color: var(--defaultblack);
+    color: var(--defaultwhite);
+    padding: 50px 0;
+}
+.footer__content{
+    text-align: center;
+    
+}
